@@ -4,7 +4,7 @@
  * @Date         : 2024-06-05 23:22:55
  * @Version      : 1.0.0
  * @LastEditors  : chenxl 
- * @LastEditTime : 2024-06-05 23:22:55
+ * @LastEditTime : 2024-06-11 12:18:52
 **/
 #include<iostream>
 #include<string>
@@ -34,8 +34,8 @@ class Solution{
 
 int main(){
     Solution solution;
-    int a[9] = {1,8,6,2,5,4,8,3,7};
+    int a[9] = {1,8,6,2,5,4,8,3};
     vector<int> height(a,a+9);
     cout<<solution.maxArea(height)<<endl;
-    return 0;
+    return 1;
 }
